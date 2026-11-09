@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Varani IT Solutions</title>
+  <meta name="description" content="Varani IT Solutions LTDA: desenvolvimento de software e serviços de tecnologia. Criadora dos aplicativos Cuide e Pawe.">
+  <!-- Verificação do Google Search Console: cole aqui a meta tag google-site-verification. -->
+  <style>
+    :root {
+      --bg: #f7f6f2;
+      --surface: #ffffff;
+      --text: #1d1d1b;
+      --muted: #5c5c57;
+      --line: #e3e1da;
+      --accent: #2f6f5e;
+      --chip: #e7f0ec;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #141413;
+        --surface: #1d1d1b;
+        --text: #efeee9;
+        --muted: #a6a59e;
+        --line: #33332f;
+        --accent: #7cc3ad;
+        --chip: #233630;
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    }
+    .wrap { max-width: 760px; margin: 0 auto; padding: 0 16px; }
+    header { padding: 56px 0 32px; }
+    .brand { font-size: 14px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin: 0 0 12px; }
+    h1 { font-size: clamp(28px, 6vw, 40px); line-height: 1.15; margin: 0 0 16px; }
+    .lead { font-size: 18px; color: var(--muted); margin: 0; max-width: 600px; }
+    h2 { font-size: 20px; margin: 48px 0 16px; }
+    .apps { display: grid; gap: 16px; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+    .app {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 12px;
+      padding: 20px;
+    }
+    .app h3 { margin: 0 0 8px; font-size: 20px; }
+    .app p { margin: 0 0 16px; color: var(--muted); }
+    .chip {
+      display: inline-block;
+      background: var(--chip);
+      color: var(--accent);
+      font-size: 13px;
+      font-weight: 600;
+      padding: 4px 10px;
+      border-radius: 999px;
+    }
+    p { margin: 0 0 12px; }
+    a { color: var(--accent); }
+    footer {
+      margin-top: 56px;
+      padding: 24px 0 40px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 14px;
+    }
+    footer p { margin: 0 0 4px; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <p class="brand">Varani IT Solutions</p>
+      <h1>Desenvolvimento de software e serviços de tecnologia.</h1>
+      <p class="lead">Somos uma empresa brasileira que desenvolve software sob encomenda, presta consultoria em tecnologia e cria aplicativos próprios para Android e iOS.</p>
+    </header>
+
+    <main>
+      <h2>Nossos aplicativos</h2>
+      <div class="apps">
+        <article class="app">
+          <h3>Cuide</h3>
+          <p>Lembrete de remédio pelo WhatsApp para o seu pai ou a sua mãe. Quando a dose é confirmada, a família toda fica sabendo.</p>
+          <span class="chip">Em breve no Android e no iOS</span>
+        </article>
+        <article class="app">
+          <h3>Pawe</h3>
+          <p>Carteira de vacinação digital, rotina diária e assistente com IA para cuidar do seu pet.</p>
+          <span class="chip">Em breve no Android e no iOS</span>
+        </article>
+      </div>
+
+      <h2>Privacidade</h2>
+      <p>Cada aplicativo tem a sua própria política de privacidade, publicada junto com o app. Para qualquer pedido sobre os seus dados, escreva para o contato abaixo.</p>
+
+      <h2>Contato</h2>
+      <p><a href="mailto:joao.varani@gmail.com">joao.varani@gmail.com</a></p>
+    </main>
+
+    <footer>
+      <p><strong>VARANI IT SOLUTIONS LTDA</strong></p>
+      <p>CNPJ 68.125.637/0001-48</p>
+      <p>Hortolândia/SP, Brasil</p>
+    </footer>
+  </div>
+</body>
+</html>
